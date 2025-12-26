@@ -4,7 +4,7 @@ import joblib
 import json
 
 project_root = Path(__file__).parent.parent.parent.parent
-sys.path.insert(0, str(project_root / "project"))
+sys.path.insert(0, str(project_root / "MLProj"))
 from ml.data.preprocessing import lowercase_text, remove_extra_spaces  # noqa: E402
 
 

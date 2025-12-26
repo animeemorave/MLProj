@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 project_root = Path(__file__).parent.parent.parent.parent
-sys.path.insert(0, str(project_root / "project"))
+sys.path.insert(0, str(project_root / "MLProj"))
 from ml.models.classical_models import (  # noqa: E402
     load_preprocessed_data,
     create_tfidf_vectorizer,

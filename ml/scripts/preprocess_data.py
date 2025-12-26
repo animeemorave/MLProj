@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 project_root = Path(__file__).parent.parent.parent.parent
-sys.path.insert(0, str(project_root))
+sys.path.insert(0, str(project_root / "MLProj"))
 from ml.data.preprocessing import (  # noqa: E402
     load_merged_data,
     show_before_preprocessing_stats,
